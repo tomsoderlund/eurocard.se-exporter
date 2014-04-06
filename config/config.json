@@ -1,0 +1,145 @@
+{
+	"defaults": {
+		"owner": "",
+		"receipt": "PDF"
+	},
+	"suppliers": {
+		"paypal": {
+			"name-regexp": "\\w+\\s?\\*(\\w+\\s?\\w+)"
+		},
+		"iz": {
+			"name-regexp": "\\w+\\s?\\*(\\w+\\s?\\w+)"
+		},
+		"apple itunes": {
+			"name": "Apple App Store",
+			"specification": "iPhone apps: ",
+			"owner": "Tomorroworld",
+			"category": "5420. Dataprogram"
+		},
+		"steam": {
+			"name": "Steam",
+			"specification": "Games: ",
+			"category": "5420. Dataprogram",
+			"owner": "Tomorroworld"
+		},
+		"kindle": {
+			"name": "Amazon Kindle",
+			"specification": "Books: ",
+			"category": "4050. Inköp från utlandet",
+			"owner": "Tomorroworld"
+		},
+		"ttkservices": {
+			"name": "GetFriday",
+			"specification": "Virtual assistant",
+			"owner": "Tomorroworld",
+			"category": "4600. Underentreprenad"
+		},
+		"odesk": {
+			"name": "oDesk",
+			"specification": "Outsourced development",
+			"owner": "Tomorroworld",
+			"category": "4600. Underentreprenad"
+		},
+		"shutterstock": {
+			"name": "Shutterstock",
+			"specification": "Photos/illustrations",
+			"category": "5990. Reklam, övrigt",
+			"owner": "Tomorroworld"
+		},
+		"godaddy": {
+			"name": "GoDaddy",
+			"specification": "Web domains",
+			"category": "5990. Reklam, övrigt",
+			"owner": "Tomorroworld"
+		},
+		"mailchimp": {
+			"name": "MailChimp",
+			"specification": "Email marketing",
+			"category": "5990. Reklam, övrigt",
+			"owner": "Tomorroworld"
+		},
+		"skype": {
+			"name": "Skype",
+			"specification": "Internet phone",
+			"category": "6211. Fast telefoni",
+			"owner": "Tomorroworld"
+		},
+		"sup46": {
+			"name": "SUP46",
+			"specification": "Office rent",
+			"category": "5011. Kontorslokal",
+			"owner": "Tomorroworld"
+		},
+		"amazon web services": {
+			"specification": "Server hosting",
+			"category": "5250. Hyra av datorer",
+			"owner": "Tomorroworld"
+		},
+		"dropbox": {
+			"name": "DropBox",
+			"specification": "Cloud file storage",
+			"category": "5250. Hyra av datorer",
+			"owner": "Tomorroworld"
+		},
+		"github": {
+			"name": "GitHub",
+			"specification": "Source code storage",
+			"category": "5250. Hyra av datorer",
+			"owner": "Tomorroworld"
+		},
+		"kickstarter": {
+			"name": "Kickstarter",
+			"specification": "Crowdfunded purchase",
+			"category": "4050. Inköp från utlandet"
+		},
+		"taxi": {
+			"receipt": "Paper",
+			"category": "5800. Resekostnader",
+			"owner": "Tomorroworld"
+		},
+		"hotel": {
+			"receipt": "Paper",
+			"category": "5800. Resekostnader",
+			"owner": "Tomorroworld"
+		},
+		"restauran": {
+			"receipt": "Paper",
+			"category": "6071. Representation",
+			"owner": "Tomorroworld"
+		},
+		"cafe": {
+			"receipt": "Paper",
+			"category": "6071. Representation",
+			"owner": "Tomorroworld"
+		},
+		"coffee": {
+			"receipt": "Paper",
+			"category": "6071. Representation",
+			"owner": "Tomorroworld"
+		},
+		"kafe": {
+			"receipt": "Paper",
+			"category": "6071. Representation",
+			"owner": "Tomorroworld"
+		},
+		"kaffe": {
+			"receipt": "Paper",
+			"category": "6071. Representation",
+			"owner": "Tomorroworld"
+		},
+		"spotify": {
+			"name": "Spotify",
+			"specification": "Music subscription",
+			"owner": "Personal"
+		},
+		"h m": {
+			"name": "H&M",
+			"specification": "Clothes",
+			"owner": "Kids"
+		},
+		"coop": {
+			"specification": "Food",
+			"owner": "Personal"
+		}
+	}
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+<head>
+<title>Eurocard Exporter</title>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta name="description" content="description">
+<meta name="keywords" content="key,word">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<link rel="stylesheet" type="text/css" href="./styles/styles.css">
+</head>
+
+<body>
+
+<div id="content">
+
+	<h1>Eurocard Exporter</h1>
+
+	<p>
+	1. Select and copy the fields from Eurocard report like so:
+	</p>
+
+	<p>
+	<img class="example-image" src="images/eurocard-copy-example.png" alt="Eurocard">
+	</p>
+
+	<form id="form">
+		<p>
+		<label for="input">2. Paste in here from Eurocard:</label><br>
+		<textarea id="input" placeholder="01-07	01-09	COOP KONSUM ZINKEN	STOCKHOLM	SEK	48,66	374,45"></textarea>
+		</p>
+		<p>
+		<label for="output">3. Output (copy to spreadsheet):</label><br>
+		<textarea id="output" readonly></textarea>
+		</p>
+		<p><button id="submitbutton" type="button" class="action">Update</button></p>
+	</form>
+	
+</div>
+
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> -->
+<script type="text/javascript" src="./scripts/jquery.js"></script>
+<script type="text/javascript" src="./scripts/application.js"></script>
+
+</body>
+
+</html>
