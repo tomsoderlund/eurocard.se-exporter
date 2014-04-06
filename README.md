@@ -37,4 +37,23 @@ to the more usable format:
 
 ## *Configuration
 
-The file `config/config.json` contains settings for customization.
+The file `config/config.json` contains settings for customizing output:
+
+	"suppliers": {
+		"paypal": {
+			"name-regexp": "\\w+\\s?\\*(\\w+\\s?\\w+)"
+		},
+		"shutterstock": {
+			"name": "Shutterstock",
+			"specification": "Photos/illustrations",
+			"category": "5990. Reklam, övrigt",
+			"owner": "Tomorroworld"
+		},
+	}
+
+* The key (`"paypal"`, `"shutterstock"` in the examples above) is used as a search key in the Eurocard "Specification" field.
+* `name-regexp`: Reformats name using regular expression.
+* `name`: Overwrites the name.
+* `specification`: Value for the description field.
+* `category`: Value for the category field.
+* `owner`: Value for the owner field.
