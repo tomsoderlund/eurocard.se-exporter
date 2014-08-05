@@ -10,7 +10,7 @@
 		"iz": {
 			"name-regexp": "\\w+\\s?\\*(\\w+\\s?\\w+)"
 		},
-		"apple itunes": {
+		"itunes": {
 			"name": "Apple App Store",
 			"specification": "iPhone apps: ",
 			"owner": "Tomorroworld",
@@ -26,6 +26,12 @@
 			"name": "Amazon Kindle",
 			"specification": "Books: ",
 			"category": "4050. Inköp från utlandet",
+			"owner": "Tomorroworld"
+		},
+		"posten": {
+			"name": "Posten",
+			"specification": "Porto",
+			"category": "6250. Postbefordran",
 			"owner": "Tomorroworld"
 		},
 		"ttkservices": {
@@ -92,6 +98,10 @@
 			"specification": "Crowdfunded purchase",
 			"category": "4050. Inköp från utlandet"
 		},
+		"steepdeclin": {
+			"name": "Sthlm Tech Meetup",
+			"specification": "Conference"
+		},
 		"taxi": {
 			"receipt": "Paper",
 			"category": "5800. Resekostnader",
@@ -139,6 +149,11 @@
 		},
 		"coop": {
 			"specification": "Food",
+			"owner": "Personal"
+		},
+		"sf.se": {
+			"name": "SF Bio",
+			"specification": "Movie",
 			"owner": "Personal"
 		}
 	}

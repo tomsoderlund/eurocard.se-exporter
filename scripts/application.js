@@ -21,7 +21,7 @@ var EUROCARD = EUROCARD || {};
 
 	var parseAmount = function (val) {
 		if (val && val.indexOf(',') > -1)
-			return parseFloat(val.replace(',', '.'));
+			return parseFloat(val.replace(' ', '').replace(',', '.'));
 		else
 			return null;
 	};
